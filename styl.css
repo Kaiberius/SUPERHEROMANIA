@@ -12,3 +12,34 @@ body {
     overflow-x: hidden;
     position: relative;
 }
+/**** HEADER SECTION ****/
+header {
+    display: flex;
+    padding: 0 3rem;
+    background-color: rgb(67, 64, 64);
+    height: 11vh;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    color: rgb(255, 128, 0);
+    letter-spacing: 1px;
+    font-size: ;
+}
+.login-link {
+    color:rgb(190, 147, 6);
+    font-size: 1.4em;
+    letter-spacing: 2px;
+    transition: 0.3s;
+}
+.login-link:hover {
+    color:rgb(255, 196, 0);
+}
+/**** HEADER SECTION ****/
+/**** LANDING PAGE ****/
+.landing-page {
+    min-height: 89vh;
+    background-color: rgb(92, 87, 87);
+}
+
+/**** LANDING PAGE ****/
